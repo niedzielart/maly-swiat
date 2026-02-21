@@ -1,0 +1,57 @@
+body{
+
+
+
+background: #fffeb8;
+background: radial-gradient(circle,rgba(255, 254, 214, 1) 0%, rgba(242, 247, 255, 1) 100%);
+font-family: "Jacquarda Bastarda 9", serif;
+   color:rgb(149, 116, 91)
+
+    }
+    #las {
+   position: absolute;
+   top: 90%;
+   left: 400px;
+        z-index: -100;
+}
+
+   #ptak {
+   position: absolute;
+   top: 150px;
+   left: 500px;
+transform: rotate(6deg);
+opacity: 0.5;}
+
+     #szumi {
+   position: absolute;
+   top: 350px;
+   left: 90px;
+z-index:-50;}
+
+   #flower {
+   position: absolute;
+   top: 350px;
+   right: 90px;}
+
+   #kwiat {
+   position: absolute;
+   top: 0px;
+   left: 30%;}
+
+.trail {
+   position: absolute;
+   width: 10px;
+   height: 10px;
+   background-color: rgba(255, 210, 120, 0.627);
+   border-radius: 50%;
+   pointer-events: none;
+   animation: fade 0.5s ease-out forwards;
+}
+
+
+@keyframes fade {
+   to {
+       opacity: 0;
+       transform: scale(2);
+   }
+}
