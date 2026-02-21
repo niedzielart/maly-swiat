@@ -1,2 +1,2 @@
 # maly-swiat
-webpage made during cranberry*lemonade's workshop &lt;3
+little world - a webpage made during cranberry*lemonade's workshop &lt;3
